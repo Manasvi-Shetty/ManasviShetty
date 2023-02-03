@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============--> 
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Manasvi Shetty</title>
+</head>
+<body>
+
+    <!-- -------------------NavBar----------------------- -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="images/mslogo.png" class="nav__logo-icon">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#roles" class="nav__link">Roles</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x' ></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu' ></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ---------------------Main----------------------- -->
+    <main class="main">
+       <!-- ---Home--- -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    <img src="images/mslogo.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.github.com/Manasvi-Shetty" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://twitter.com/ManasviShetty7" target="_blank" class="home__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/manasvi-shetty/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i> 
+                    </a>
+                </div>
+
+                <div class="home__data">
+                    <p class="home__description">
+                        Hi, I am      
+                    </p>
+                    <h1 class="home__title">MANASVI SHETTY</h1>
+                    <p class="home__description">
+                        I am an Engineering udergraduate practicing UI/UX design and web development.      
+                    </p>
+                    <!-- <span class="home__price">$1245</span> -->
+
+                    <div class="home__btns">
+                        <a href="pdf/Manasvi Shetty Resume.pdf" download="" class="button button--small">
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- ---About--- -->
+         <section class="story section container">
+            <div class="story__container grid">
+
+                <div class="story__images">
+                    <img src="images/my img (2).jpg" alt="" class="story__img">
+                    <div class="story__square"></div>
+                </div>
+
+                <div class="story__data">
+                    <h2 class="section__title story__section-title">
+                       About Me
+                    </h2>
+
+                    <p class="story__description">
+            I am an Engineering undergraduate at K.J. Somaiya Institute of Engineering and Information Technology. I
+            love designing and building things for the web. I am an enthusiatic person looking
+            forward to new experiences.
+                    </p>
+
+                    <a href="pdf/Manasvi Shetty Resume.pdf" download="" class="button button--small">My Resume</a>
+                </div>   
+            </div>
+        </section>
+
+       <!-- ---Projects--- -->
+        <section class="featured section container" id="featured">
+            <h2 class="section__title">
+              My Portfolio
+            </h2>
+
+            <div class="featured__container grid">
+                <article class="featured__card">
+                    <!-- <span class="featured__tag">Web</span> -->
+
+                    <img src="assets/img/featured1.png" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Payment Site</h3>
+                    </div>
+
+                    <button class="button featured__button">Go to Site</button>
+                </article>
+
+                <article class="featured__card">
+                    <!-- <span class="featured__tag">Java</span> -->
+
+                    <img src="assets/img/featured2.png" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Clock System</h3>
+                    </div>
+
+                    <button class="button featured__button">Go to Site</button>
+                </article>
+
+                <article class="featured__card">
+                    <!-- <span class="featured__tag">App</span> -->
+
+                    <img src="assets/img/featured3.png" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Parking App</h3>
+                    </div>
+
+                    <button class="button featured__button">Go to Site</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- ---Skills---- -->
+        <section class="products section container" id="products">
+            <h2 class="section__title">
+                My Skills
+            </h2>
+
+            <div class="products__container grid">
+                <article class="products__card">
+                    <i class='bx bxl-figma bx-lg' ></i>
+
+                    <h3 class="products__title">Figma</h3>
+                    <!-- <span class="products__price">Figma</span> -->
+
+                   
+                </article>
+
+                <article class="products__card">
+                    <i class='bx bxl-java bx-lg' ></i>
+
+                    <h3 class="products__title">Java</h3>
+                    <!-- <span class="products__price">Java</span> -->
+                </article>
+
+                <article class="products__card">
+                    <i class='bx bxl-angular bx-lg' ></i>
+
+                    <h3 class="products__title">Angular.js</h3>
+                    <!-- <span class="products__price">Angular.js</span> -->
+
+                   
+                </article>
+
+                <article class="products__card">
+                    <i class='bx bxl-javascript bx-lg' ></i>
+
+                    <h3 class="products__title">JavaScript</h3>
+                    <!-- <span class="products__price">JavaScript</span> -->
+
+                
+                </article>
+
+                <article class="products__card">
+                    <i class='bx bxl-css3 bx-lg' ></i>
+
+                    <h3 class="products__title">HTML/CSS</h3>
+                    <!-- <span class="products__price">HTML/CSS</span> -->
+
+                    
+                </article>
+
+                <article class="products__card">
+                    <i class='bx bxl-github bx-lg' ></i>
+
+                    <h3 class="products__title">GitHub</h3>
+                    <!-- <span class="products__price">Git</span> -->
+
+                   
+                </article>
+            </div>
+        </section>
+   
+        <!-- ---Roles---- -->
+        <div id="roles">
+            <div class="container">
+                <h2 class="section__title roles">
+                    My Roles
+                </h2>
+                <div class="cont1">
+                  <div class="card">
+                    <div class="content">
+                      <h2>01</h2>
+                      <h3>GDSC Lead</h3>
+                      <h4>Google Developer Student Clubs (Jul 2022 - Present)</h4>
+        
+                    </div>
+                  </div>
+        
+                  <div class="card">
+                    <div class="content">
+                      <h2>02</h2>
+                      <h3>Chief Executive Officer</h3>
+                      <h4>IET KJSIEIT<br> (Aug 2022 - Present)</h4>
+        
+                    </div>
+                  </div>
+        
+                  <div class="card">
+                    <div class="content">
+                      <h2>03</h2>
+                      <h3> Firmware Testing Intern</h3>
+                      <h4>NLI KJSIEIT<br> (Jun 2021 - Dec 2021)</h4>
+        
+                    </div>
+                  </div>
+        
+                  <div class="card">
+                    <div class="content">
+                      <h2>04</h2>
+                      <h3>Jt. Technical Head</h3>
+                      <h4>IET KJSIEIT<br> (Aug 2021 - Jul 2022)</h4>
+        
+                    </div>
+                  </div>
+        
+                  <div class="card">
+                    <div class="content">
+                      <h2>05</h2>
+                      <h3>Corporate Team Member</h3>
+                      <h4>DSC KJSIEIT<br> (Jan 2022 - Jul 2022)</h4>
+                    </div>
+                  </div>
+        
+                  <div class="card">
+                    <div class="content">
+                      <h2>06</h2>
+                      <h3> Development Intern</h3>
+                      <h4>NPST<br> (Jan 2022 - Jul 2022)</h4>
+        
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+            </div>
+
+       <!-- ---Contact Me--- -->
+        <!-- <section class="newsletter section container">
+            <div class="newsletter__bg grid">
+                <div>
+                    <h2 class="newsletter__title">Have a Project <br> in mind?</h2>
+                    <p class="newsletter__description">
+                        Don't miss out on your discounts. Subscribe to our email
+                        newsletter to get the best offers, discounts, coupons,
+                        gifts and much more.
+                    </p>
+                </div>
+        
+                <form action="" class="newsletter__subscribe">
+                    <input type="email" placeholder="Write your message" class="newsletter__input">
+                    <button class="button">
+                        SEND
+                    </button>
+                </form>
+            </div>
+        </section> -->
+    </main>
+
+    <!-- ----------------------Footer ---------------------------->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">Manasvi Shetty</h3>
+
+                <ul class="footer__list">
+                    <li>A passionate designer and</li>
+                    <li>developer enthusiastic</li>
+                    <li>to collaborate.</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Navigation</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#featured" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#products" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#roles" class="footer__link">Roles</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Get in Touch</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">manasvi.shetty@somaiya.edu</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">+91 81xxxxxx51</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/manasvi-shetty/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+
+                    <a href="https://twitter.com/ManasviShetty7" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+
+                    <a href="https://www.github.com/Manasvi-Shetty" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">&#169; Made by Manasvi Shetty</span>
+    </footer>
+
+  <!-- ------------------------Scroll animation-------------------- -->
+    <a href="#" class="scrollup" id="scroll-up"> 
+        <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+    </a>
+
+    <!-- ------------------------Swiper JS-------------------------- -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+   <!-- -------------------------Main JS------------------------------------ -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
