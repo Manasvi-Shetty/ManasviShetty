@@ -651,6 +651,10 @@ body.dark-theme {
     font-size: var(--smaller-font-size);
   }
 
+  .home__social{
+    display: none;
+  }
+
   .about__square,
   .about__img {
     width: 180px;
