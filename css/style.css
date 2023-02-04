@@ -367,7 +367,7 @@ body.dark-theme {
 .projects__card {
   position: relative;
   text-align: center;
-  background-color: var(--container-color);
+  background:rgba(255, 255, 255, 0.1);
   padding-top: 2rem;
   overflow-y: hidden;
   transition: .3s;
@@ -407,37 +407,37 @@ body.dark-theme {
 }
 
 /* ---------------About--------------- */
-.story__container {
+.about__container {
   row-gap: 7.5rem;
 }
 
-.story__title {
+.about__title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-1);
 }
 
-.story__description {
+.about__description {
   margin-bottom: var(--mb-2-5);
 }
 
-.story__images {
+.about__images {
   position: relative;
 }
 
-.story__img, 
-.story__square {
+.about__img, 
+.about__square {
   width: 150px;
   border-radius: 15px;
 
 }
 
-.story__square {
-  height: 250px;
+.about__square {
+  height: 150px;
   background-color: var(--first-color);
   border-radius: 15px;
 }
 
-.story__img {
+.about__img {
   position: absolute;
   left: 3rem;
   top: -3rem;
@@ -454,7 +454,7 @@ body.dark-theme {
 
 .skills__card {
   position: relative;
-  background-color: var(--container-color);
+  background:rgba(255, 255, 255, 0.1);
   padding: 1.25rem 0;
   text-align: center;
   transition: .3s;
@@ -651,12 +651,12 @@ body.dark-theme {
     font-size: var(--smaller-font-size);
   }
 
-  .story__square,
-  .story__img {
+  .about__square,
+  .about__img {
     width: 180px;
   }
 
-  .story__square {
+  .about__square {
     height: 180px;
   }
 
@@ -732,18 +732,18 @@ body.dark-theme {
     font-size: var(--normal-font-size);
   }
 
-  .story__container {
+  .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
 
-  .story__section-title {
+  .about__section-title {
     text-align: initial;
   }
-  .story__section-title::before {
+  .about__section-title::before {
     margin: initial;
   }
-  .story__images {
+  .about__images {
     order: -1;
   }
 
@@ -795,16 +795,16 @@ body.dark-theme {
     padding-top: 2rem;
   }
   
-  .story__container {
+  .about__container {
     column-gap: 8rem;
   }
 
-  .story__square,
-  .story__img {
+  .about__square,
+  .about__img {
     width: 450px;
   }
 
-  .story__square {
+  .about__square {
     height: 450px;
   }
 
@@ -822,14 +822,14 @@ body.dark-theme {
     margin-right: auto;
   }
   
-  .story__container {
+  .about__container {
     column-gap: 13rem;
   }
 
-  .story__container {
+  .about__container {
     padding-top: 3rem;
   }
-  .story__img {
+  .about__img {
     left: 5rem;
     top: -5rem;
   }
