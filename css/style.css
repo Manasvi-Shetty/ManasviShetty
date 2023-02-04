@@ -675,10 +675,6 @@ body.dark-theme {
   .home__img-bg {
     width: 340px;
   }
-  
-  .home__social{
-    display: none;
-  }
 
   .projects__container {
     grid-template-columns: repeat(2, 1fr);
