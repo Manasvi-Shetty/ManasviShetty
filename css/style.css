@@ -676,6 +676,7 @@ body.dark-theme {
     width: 340px;
   }
 
+
   .projects__container {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
