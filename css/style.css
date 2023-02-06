@@ -311,7 +311,7 @@ body.dark-theme {
   left: -5rem;
   transform: rotate(-90deg);
   display: flex;
-  /* column-gap: 1rem; */
+  column-gap: 1rem;
 }
 
 .home__social-link {
