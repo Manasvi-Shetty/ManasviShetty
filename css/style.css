@@ -308,10 +308,10 @@ body.dark-theme {
 .home__social {
   position: absolute;
   top: 35%;
-  right: -5rem;
+  left: -5rem;
   transform: rotate(-90deg);
   display: flex;
-  column-gap: 8rem;
+  column-gap: 16rem;
 }
 
 .home__social-link {
