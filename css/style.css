@@ -312,7 +312,7 @@ body.dark-theme {
   transform: rotate(-90deg);
   display: flex;
   column-gap: 1rem;
-  /* margin-left: 65rem; */
+  margin-right: 10rem;
 }
 
 .home__social-link {
@@ -678,10 +678,6 @@ body.dark-theme {
     width: 340px;
   }
 
-  .home__social{
-    margin-left: 65rem;
-  }
-
   .projects__container {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -852,9 +848,7 @@ body.dark-theme {
    opacity: 0;
 }
 
-.show{
 
-}
 
 
 
