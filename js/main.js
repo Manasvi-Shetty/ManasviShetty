@@ -94,3 +94,20 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+//Scroll Animation
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((each)=>{
+        console.log(entry)
+        if(entry.isIntersecting){
+            entry.target.classList.add('.show');
+        } else{
+            entry.target.classList.remove('.show');
+        }
+    })
+})
+
+
+const hiddenElements = document.querySelector('.hidden');
+
+

@@ -110,11 +110,11 @@ button {
 
 body.dark-theme {
   --first-color:	hsl(194, 25%, 67%);
-  --button-color: hsl(0, 0%, 24%);
+  --button-color: hsl(199, 26%,57%);
   --button-color-alt: hsl(0, 0%, 28%);
   --title-color: hsl(0, 0%, 95%);
   --text-color: hsl(0, 0%, 95%);
-  --body-color: 		hsl(199, 26%,57%);
+  --body-color: 		hsl(199, 26%,37%);
   --container-color: hsl(199, 26%, 42%);
   --border-color: hsl(194, 25%, 67%);
 }
@@ -841,6 +841,14 @@ body.dark-theme {
   .scrollup {
     right: 3rem;
   }
+}
+
+.hidden{
+   opacity: 0;
+}
+
+.show{
+
 }
 
 
