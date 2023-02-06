@@ -308,7 +308,7 @@ body.dark-theme {
 .home__social {
   position: absolute;
   top: 35%;
-  left: -5rem;
+  right: -5rem;
   transform: rotate(-90deg);
   display: flex;
   column-gap: 8rem;
