@@ -492,7 +492,7 @@ a{
   margin: var(--mb-3);
 }
 .cont1 {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     max-width: 100%;
@@ -820,6 +820,11 @@ a{
   }
 
   .skills__container {
+    padding-top: 2rem;
+  }
+
+  .cont1 {
+    grid-template-columns: repeat(3, 312px);
     padding-top: 2rem;
   }
  
