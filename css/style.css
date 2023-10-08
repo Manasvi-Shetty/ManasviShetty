@@ -364,7 +364,7 @@ body.dark-theme {
 /* ------------Project--------------- */
 a{
   text-decoration: none;
-  color: var(--text-color);
+  color: hsl(0deg 0% 99.37%);
 }
 
 .projects__container {
@@ -684,7 +684,7 @@ a{
   }
 
   .projects__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: flex-start;
     gap: 1.5rem;
