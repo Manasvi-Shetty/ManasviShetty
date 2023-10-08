@@ -802,7 +802,7 @@ a{
   }
 
   .projects__container {
-    grid-template-columns: repeat(2, 312px);
+    grid-template-columns: repeat(3, 312px);
     padding-top: 2rem;
   }
   
